@@ -18,7 +18,7 @@ const StyledButton = styled(Button)`
 `;
 
 type SquareProps = {
-  value: number;
+  value: string | null;
   onClick: MouseEventHandler<HTMLButtonElement>;
 };
 

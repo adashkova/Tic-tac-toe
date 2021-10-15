@@ -11,7 +11,7 @@ const StyledSpace = styled(Row)`
 `;
 
 type FieldProps = {
-  squares: number[];
+  squares: string[];
   onClick(idx: number): void;
 };
 
