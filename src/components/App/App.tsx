@@ -19,7 +19,7 @@ const App: FC = () => {
   return (
     <Layout>
       <StyledHeader>
-        <Title style={{ color: '#fff' }}>TIC-TAC-TOE</Title>
+        <Title style={{ color: '#fff', lineHeight: '0.9' }}>TIC-TAC-TOE</Title>
       </StyledHeader>
       <Game />
     </Layout>
